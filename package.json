@@ -1,0 +1,10 @@
+{
+    "builds": [
+      { "src": "courses-angular", "use": "@vercel/static-build" },
+      { "src": "server", "use": "@vercel/node" }
+    ],
+    "install": {
+        "include": ["server/package.json"]
+    }
+}
+  
